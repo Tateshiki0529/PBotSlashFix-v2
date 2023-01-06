@@ -7,6 +7,7 @@ from modules.general import General
 from modules.trolls import Trolls
 from modules.utils import Utils
 from modules.images import Images
+from modules.private import Private
 from modules.lib import log
 from sys import argv
 
@@ -24,6 +25,7 @@ class PBot2(Cog):
 		self.bot.add_cog(Trolls(bot=self.bot))
 		self.bot.add_cog(Utils(bot=self.bot))
 		self.bot.add_cog(Images(bot=self.bot))
+		self.bot.add_cog(Private(bot=self.bot))
 		log("All modules loaded. Starting...")
 	
 	@Cog.listener()
