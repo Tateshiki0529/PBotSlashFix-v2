@@ -79,9 +79,22 @@ class EmptyBot(Cog):
 if __name__ == "__main__":
 	bot = Bot(auto_sync_commands=True, intents=Intents().all())
 	try:
-		if argv[1] == "reset":
-			bot.add_cog(EmptyBot(bot=bot))
+		match argv[1]:
+			case "dev":
+				bot.add_cog(PBot2(bot=bot))
+				bot.run(Constants.devToken)
+			case "devreset":
+				bot.add_cog(EmptyBot(bot=bot))
+				bot.run(Constants.devToken)
+			case "main":
+				bot.add_cog(PBot2(bot=bot))
+				bot.run(Constants.token)
+			case "mainreset":
+				bot.add_cog(EmptyBot(bot=bot))
+				bot.run(Constants.token)
+			case _:
+				log("Unknown argument: '%s'" % argv[1], Constants.LOG_ERROR)
+				exit()
 	except IndexError:
 		bot.add_cog(PBot2(bot=bot))
-	
-	bot.run(Constants.devToken)
+		bot.run(Constants.token)
