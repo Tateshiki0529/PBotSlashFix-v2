@@ -4,13 +4,12 @@ from discord import (
 	option
 )
 
-from asyncio import gather
 from discord.ext.commands import slash_command as command
 from glob import glob
 from os.path import basename, isfile, splitext
 from .constants import Constants
 from .autocomplete import Autocomplete
-from .lib import log, getSubcommandJSON, setSubcommandJSON, uploadImage
+from .lib import log, getSubcommandJSON, setSubcommandJSON
 
 GID = [Constants.P_GUILD_ID]
 
