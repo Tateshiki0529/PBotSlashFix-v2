@@ -2,7 +2,7 @@ from .constants import Constants
 from datetime import datetime
 from json import load, dump
 
-from discord import Attachment, ApplicationContext
+from discord import Attachment, ApplicationContext, File
 
 from os.path import splitext, isfile
 
@@ -28,8 +28,24 @@ def getSubcommandJSON() -> dict:
 	with open(file="./subcommand.json", mode="r") as fp:
 		return load(fp)
 
+def getSubcommand(cmd: str) -> list:
+	json = getSubcommandJSON()
+	if cmd in json:
+		ret: dict = json[cmd]
+		return ret.keys()
+	else:
+		return []
+
 def setSubcommandJSON(data: dict) -> dict:
 	with open(file="./subcommand.json", mode="w") as fp:
 		dump(fp=fp, obj=data)
 	
 	return getSubcommandJSON()
+
+async def imageReplySelectable(ctx: ApplicationContext, command: str, subcommand: str):
+	data = getSubcommandJSON()
+	list = getSubcommand(command)
+	if subcommand not in list:
+		await ctx.respond("Error: サブコマンドは %s から選択してください！" % ", ".join(["`%s`" % subcommand for subcommand in list]))
+	else:
+		await ctx.respond(file=File("./images/%s" % data[command][subcommand]["path"]))

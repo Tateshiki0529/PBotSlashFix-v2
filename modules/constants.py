@@ -2,7 +2,7 @@ from . import config
 from datetime import timezone, timedelta
 
 class Constants:
-	BOT_VERSION = "v2-0.5.2"
+	BOT_VERSION = "v2-0.6.0"
 
 	dateFormat = "%Y/%m/%d %H:%M:%S"
 	token = config.DISCORD_TOKEN
