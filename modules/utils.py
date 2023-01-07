@@ -1,8 +1,6 @@
-from discord import (
-	Cog, Bot, ApplicationContext,
-	option
-)
+from discord import ApplicationContext, Bot, Cog, option
 from discord.ext.commands import slash_command as command
+
 from .constants import Constants
 from .lib import log
 
@@ -12,7 +10,6 @@ class Utils(Cog):
 	def __init__(self, bot: Bot) -> None:
 		super().__init__()
 		self.bot = bot
-		self.dateFormat = Constants.dateFormat
 		log("Module 'Utils' loaded.")
 	
 	# Command: /power <base> <exp>

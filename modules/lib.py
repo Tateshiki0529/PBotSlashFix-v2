@@ -1,10 +1,9 @@
-from .constants import Constants
 from datetime import datetime
-from json import load, dump
+from json import dump, load
 
-from discord import Attachment, ApplicationContext, File
+from discord import ApplicationContext, File
 
-from os.path import splitext, isfile
+from .constants import Constants
 
 def log(text: str, level: int = Constants.LOG_INFO) -> None:
 	match level:

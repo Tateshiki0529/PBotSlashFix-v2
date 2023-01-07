@@ -1,15 +1,14 @@
-from discord import (
-	Cog, Bot, ApplicationContext, Interaction, Member,
-	option
-)
-from discord.ext.commands import slash_command as command
-from .constants import Constants
-from .lib import log
+from asyncio import sleep as asleep
 from math import floor
 from platform import platform
-from psutil import virtual_memory, cpu_count, cpu_percent, disk_usage, cpu_freq
+
+from discord import ApplicationContext, Bot, Cog, Interaction, Member, option
+from discord.ext.commands import slash_command as command
 from emoji import emojize
-from asyncio import sleep as asleep
+from psutil import cpu_count, cpu_freq, cpu_percent, disk_usage, virtual_memory
+
+from .constants import Constants
+from .lib import log
 
 GID = [Constants.P_GUILD_ID]
 
@@ -17,7 +16,6 @@ class General(Cog):
 	def __init__(self, bot: Bot) -> None:
 		super().__init__()
 		self.bot = bot
-		self.dateFormat = Constants.dateFormat
 		log("Module 'General' loaded.")
 	
 	# Command: /ping

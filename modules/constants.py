@@ -1,8 +1,9 @@
+from datetime import timedelta, timezone
+
 from . import config
-from datetime import timezone, timedelta
 
 class Constants:
-	BOT_VERSION = "v2-1.0.1"
+	BOT_VERSION = "v2-1.1.0"
 
 	dateFormat = "%Y/%m/%d %H:%M:%S"
 	token = config.DISCORD_TOKEN

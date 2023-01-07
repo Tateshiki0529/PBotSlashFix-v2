@@ -21,15 +21,15 @@
 #  ⠀⠀⠀⠀⠈⠙⠛⠶⠶⣤⣭⣭⣭⣭⣴⠶⠶⠛⠛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #
 #  Troll Commands
-from discord import (
-	Cog, Bot, ApplicationContext, Member,
-	FFmpegPCMAudio, Interaction,
-	option
-)
+
+from asyncio import sleep as asleep
+
+from discord import (ApplicationContext, Bot, Cog, FFmpegPCMAudio, Interaction,
+                     Member, option)
 from discord.ext.commands import slash_command as command
+
 from .constants import Constants
 from .lib import log
-from asyncio import sleep as asleep
 
 GID = [Constants.P_GUILD_ID]
 
@@ -37,7 +37,6 @@ class Trolls(Cog):
 	def __init__(self, bot: Bot) -> None:
 		super().__init__()
 		self.bot = bot
-		self.dateFormat = Constants.dateFormat
 		log("Module 'Trolls' loaded.")
 	
 	# Command: /troll
@@ -119,10 +118,8 @@ class Trolls(Cog):
 			voice = await vc.connect()
 		else:
 			voice = None
-
-		if voice is None:
 			vc = None
-
+		
 		if vc is None:
 			await ctx.respond(text)
 		else:

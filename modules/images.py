@@ -1,15 +1,12 @@
-from discord import (
-	Cog, Bot, ApplicationContext, File,
-	Attachment, 
-	option
-)
-
-from discord.ext.commands import slash_command as command
 from glob import glob
 from os.path import basename, isfile, splitext
-from .constants import Constants
+
+from discord import ApplicationContext, Attachment, Bot, Cog, File, option
+from discord.ext.commands import slash_command as command
+
 from .autocomplete import Autocomplete
-from .lib import log, getSubcommandJSON, setSubcommandJSON
+from .constants import Constants
+from .lib import getSubcommandJSON, log, setSubcommandJSON
 
 GID = [Constants.P_GUILD_ID]
 
@@ -17,7 +14,6 @@ class Images(Cog):
 	def __init__(self, bot: Bot) -> None:
 		super().__init__()
 		self.bot = bot
-		self.dateFormat = Constants.dateFormat
 		log("Module 'Images' loaded.")
 
 	# Command: /imgview

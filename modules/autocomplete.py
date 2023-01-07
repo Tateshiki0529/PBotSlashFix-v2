@@ -1,9 +1,8 @@
-from discord import (
-	AutocompleteContext
-)
-
-from os.path import basename
 from glob import glob
+from os.path import basename
+
+from discord import AutocompleteContext
+
 from .lib import getSubcommandJSON
 
 class Autocomplete:
