@@ -50,7 +50,7 @@ class Utils(Cog):
 		required = False,
 		autocomplete = Autocomplete.getTimezone
 	)
-	async def __timezone(self, ctx: ApplicationContext, timezone: str = None):
+	async def __timezone(self, ctx: ApplicationContext, timezone: str = None) -> None:
 		json = getTimezoneJSON()
 		tzData = None
 
