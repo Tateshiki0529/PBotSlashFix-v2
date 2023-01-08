@@ -1,0 +1,3402 @@
+[
+	{
+		"name": "Africa/Abidjan",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/アビジャン"
+	},
+	{
+		"name": "Africa/Accra",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/アクラ"
+	},
+	{
+		"name": "Africa/Addis_Ababa",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/アディスアベバ"
+	},
+	{
+		"name": "Africa/Algiers",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/アルジェ"
+	},
+	{
+		"name": "Africa/Asmara",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/アスマラ"
+	},
+	{
+		"name": "Africa/Bamako",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/バマコ"
+	},
+	{
+		"name": "Africa/Bangui",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/バンギ"
+	},
+	{
+		"name": "Africa/Banjul",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/バンジュール"
+	},
+	{
+		"name": "Africa/Bissau",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/ビサウ"
+	},
+	{
+		"name": "Africa/Blantyre",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ブランタイア"
+	},
+	{
+		"name": "Africa/Brazzaville",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ブラザビル"
+	},
+	{
+		"name": "Africa/Bujumbura",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ブジュンブラ"
+	},
+	{
+		"name": "Africa/Cairo",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/カイロ"
+	},
+	{
+		"name": "Africa/Casablanca",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/カサブランカ"
+	},
+	{
+		"name": "Africa/Ceuta",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/セウタ"
+	},
+	{
+		"name": "Africa/Conakry",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/コナクリ"
+	},
+	{
+		"name": "Africa/Dakar",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/ダカール"
+	},
+	{
+		"name": "Africa/Dar_es_Salaam",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/ダルエスサラーム"
+	},
+	{
+		"name": "Africa/Djibouti",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/ジブチ"
+	},
+	{
+		"name": "Africa/Douala",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ドゥアラ"
+	},
+	{
+		"name": "Africa/El_Aaiun",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/アイウン"
+	},
+	{
+		"name": "Africa/Freetown",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/フリータウン"
+	},
+	{
+		"name": "Africa/Gaborone",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ハボローネ"
+	},
+	{
+		"name": "Africa/Harare",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ハラレ"
+	},
+	{
+		"name": "Africa/Johannesburg",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ヨハネスブルク"
+	},
+	{
+		"name": "Africa/Juba",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/ジュバ"
+	},
+	{
+		"name": "Africa/Kampala",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/カンパラ"
+	},
+	{
+		"name": "Africa/Khartoum",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ハルツーム"
+	},
+	{
+		"name": "Africa/Kigali",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/キガリ"
+	},
+	{
+		"name": "Africa/Kinshasa",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/キンシャサ"
+	},
+	{
+		"name": "Africa/Lagos",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ラゴス"
+	},
+	{
+		"name": "Africa/Libreville",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/リーブルビル"
+	},
+	{
+		"name": "Africa/Lome",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/ロメ"
+	},
+	{
+		"name": "Africa/Luanda",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ルアンダ"
+	},
+	{
+		"name": "Africa/Lubumbashi",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ルブンバシ"
+	},
+	{
+		"name": "Africa/Lusaka",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ルサカ"
+	},
+	{
+		"name": "Africa/Malabo",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/マラボ"
+	},
+	{
+		"name": "Africa/Maputo",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/マプト"
+	},
+	{
+		"name": "Africa/Maseru",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/マセル"
+	},
+	{
+		"name": "Africa/Mbabane",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ムババーネ"
+	},
+	{
+		"name": "Africa/Mogadishu",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/モガディシオ"
+	},
+	{
+		"name": "Africa/Monrovia",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/モンロビア"
+	},
+	{
+		"name": "Africa/Nairobi",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アフリカ/ナイロビ"
+	},
+	{
+		"name": "Africa/Ndjamena",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ンジャメナ"
+	},
+	{
+		"name": "Africa/Niamey",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ニアメ"
+	},
+	{
+		"name": "Africa/Nouakchott",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/ヌアクショット"
+	},
+	{
+		"name": "Africa/Ouagadougou",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/ワガドゥグ"
+	},
+	{
+		"name": "Africa/Porto-Novo",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/ポルトノボ"
+	},
+	{
+		"name": "Africa/Sao_Tome",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アフリカ/サントメ"
+	},
+	{
+		"name": "Africa/Tripoli",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/トリポリ"
+	},
+	{
+		"name": "Africa/Tunis",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "アフリカ/チュニス"
+	},
+	{
+		"name": "Africa/Windhoek",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アフリカ/ウィントフック"
+	},
+	{
+		"name": "America/Adak",
+		"offset": {
+			"hours": -10,
+			"minutes": 0
+		},
+		"description": "アメリカ/アダック"
+	},
+	{
+		"name": "America/Anchorage",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/アンカレッジ"
+	},
+	{
+		"name": "America/Anguilla",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/アンギラ"
+	},
+	{
+		"name": "America/Antigua",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/アンティグア"
+	},
+	{
+		"name": "America/Araguaina",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アラグァイナ"
+	},
+	{
+		"name": "America/Argentina/Buenos_Aires",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/ブエノスアイレス"
+	},
+	{
+		"name": "America/Argentina/Catamarca",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/カタマルカ"
+	},
+	{
+		"name": "America/Argentina/Cordoba",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/コルドバ"
+	},
+	{
+		"name": "America/Argentina/Jujuy",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/フフイ"
+	},
+	{
+		"name": "America/Argentina/La_Rioja",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/ラリオハ"
+	},
+	{
+		"name": "America/Argentina/Mendoza",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/メンドーサ"
+	},
+	{
+		"name": "America/Argentina/Rio_Gallegos",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/リオガイェゴス"
+	},
+	{
+		"name": "America/Argentina/Salta",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/サルタ"
+	},
+	{
+		"name": "America/Argentina/San_Juan",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/サンフアン"
+	},
+	{
+		"name": "America/Argentina/San_Luis",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/サンルイス"
+	},
+	{
+		"name": "America/Argentina/Tucuman",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/トゥクマン"
+	},
+	{
+		"name": "America/Argentina/Ushuaia",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルゼンチン/ウシュアイア"
+	},
+	{
+		"name": "America/Aruba",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/アルバ"
+	},
+	{
+		"name": "America/Asuncion",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/アスンシオン"
+	},
+	{
+		"name": "America/Atikokan",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/アティコーカン"
+	},
+	{
+		"name": "America/Bahia",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/バイア"
+	},
+	{
+		"name": "America/Bahia_Banderas",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/バイーアデバンデラス"
+	},
+	{
+		"name": "America/Barbados",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/バルバドス"
+	},
+	{
+		"name": "America/Belem",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/ベレン"
+	},
+	{
+		"name": "America/Belize",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ベリーズ"
+	},
+	{
+		"name": "America/Blanc-Sablon",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ブランサブロン"
+	},
+	{
+		"name": "America/Boa_Vista",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ボアビスタ"
+	},
+	{
+		"name": "America/Bogota",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ボゴタ"
+	},
+	{
+		"name": "America/Boise",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/ボイシ"
+	},
+	{
+		"name": "America/Cambridge_Bay",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/ケンブリッジベイ"
+	},
+	{
+		"name": "America/Campo_Grande",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/カンポグランデ"
+	},
+	{
+		"name": "America/Cancun",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/カンクン"
+	},
+	{
+		"name": "America/Caracas",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/カラカス"
+	},
+	{
+		"name": "America/Cayenne",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/カイエン"
+	},
+	{
+		"name": "America/Cayman",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ケイマン"
+	},
+	{
+		"name": "America/Chicago",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/シカゴ"
+	},
+	{
+		"name": "America/Chihuahua",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/チワワ"
+	},
+	{
+		"name": "America/Costa_Rica",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/コスタリカ"
+	},
+	{
+		"name": "America/Creston",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/クレストン"
+	},
+	{
+		"name": "America/Cuiaba",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/クイアバ"
+	},
+	{
+		"name": "America/Curacao",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/キュラソー"
+	},
+	{
+		"name": "America/Danmarkshavn",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "アメリカ/デンマークシャン"
+	},
+	{
+		"name": "America/Dawson",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "アメリカ/ドーソン"
+	},
+	{
+		"name": "America/Dawson_Creek",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/ドーソンクリーク"
+	},
+	{
+		"name": "America/Denver",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/デンバー"
+	},
+	{
+		"name": "America/Detroit",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/デトロイト"
+	},
+	{
+		"name": "America/Dominica",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ドミニカ"
+	},
+	{
+		"name": "America/Edmonton",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/エドモントン"
+	},
+	{
+		"name": "America/Eirunepe",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/エイルネペ"
+	},
+	{
+		"name": "America/El_Salvador",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/エルサルバドル"
+	},
+	{
+		"name": "America/Fort_Nelson",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "America/Fort_Nelson"
+	},
+	{
+		"name": "America/Fortaleza",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/フォルタレザ"
+	},
+	{
+		"name": "America/Glace_Bay",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/グレースベイ"
+	},
+	{
+		"name": "America/Godthab",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/ゴットホープ"
+	},
+	{
+		"name": "America/Goose_Bay",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/グースベイ"
+	},
+	{
+		"name": "America/Grand_Turk",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/グランドターク"
+	},
+	{
+		"name": "America/Grenada",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/グレナダ"
+	},
+	{
+		"name": "America/Guadeloupe",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/グアドループ"
+	},
+	{
+		"name": "America/Guatemala",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/グアテマラ"
+	},
+	{
+		"name": "America/Guayaquil",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/グアヤキル"
+	},
+	{
+		"name": "America/Guyana",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ガイアナ"
+	},
+	{
+		"name": "America/Halifax",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ハリファックス"
+	},
+	{
+		"name": "America/Havana",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ハバナ"
+	},
+	{
+		"name": "America/Hermosillo",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/エルモシージョ"
+	},
+	{
+		"name": "America/Indiana/Indianapolis",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ/インディアナポリス"
+	},
+	{
+		"name": "America/Indiana/Knox",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ/ノックス"
+	},
+	{
+		"name": "America/Indiana/Marengo",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ/マレンゴ"
+	},
+	{
+		"name": "America/Indiana/Petersburg",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ/ペテルスブルグ"
+	},
+	{
+		"name": "America/Indiana/Tell_City",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ州/テル・シティ"
+	},
+	{
+		"name": "America/Indiana/Vevay",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ州/ビベイ"
+	},
+	{
+		"name": "America/Indiana/Vincennes",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ州/ヴァンセンヌ"
+	},
+	{
+		"name": "America/Indiana/Winamac",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/インディアナ/ウィナマク"
+	},
+	{
+		"name": "America/Inuvik",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/イヌヴィク"
+	},
+	{
+		"name": "America/Iqaluit",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/イカルイト"
+	},
+	{
+		"name": "America/Jamaica",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ジャマイカ"
+	},
+	{
+		"name": "America/Juneau",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/ジュノー"
+	},
+	{
+		"name": "America/Kentucky/Louisville",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ケンタッキー州/ルイビル"
+	},
+	{
+		"name": "America/Kentucky/Monticello",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ケンタッキー州/モンティチェロ"
+	},
+	{
+		"name": "America/Kralendijk",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/クラレンダイク"
+	},
+	{
+		"name": "America/La_Paz",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ラパス"
+	},
+	{
+		"name": "America/Lima",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/リマ"
+	},
+	{
+		"name": "America/Los_Angeles",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "アメリカ/ロサンゼルス"
+	},
+	{
+		"name": "America/Lower_Princes",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ローワー・プリンシズ"
+	},
+	{
+		"name": "America/Maceio",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/マセイオ"
+	},
+	{
+		"name": "America/Managua",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/マナグア"
+	},
+	{
+		"name": "America/Manaus",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/マナウス"
+	},
+	{
+		"name": "America/Marigot",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/マリゴ"
+	},
+	{
+		"name": "America/Martinique",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/マルティニーク"
+	},
+	{
+		"name": "America/Matamoros",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/マタモロス"
+	},
+	{
+		"name": "America/Mazatlan",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/マサトラン"
+	},
+	{
+		"name": "America/Menominee",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/メノミニー"
+	},
+	{
+		"name": "America/Merida",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/メリダ"
+	},
+	{
+		"name": "America/Metlakatla",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/メトラカトラ"
+	},
+	{
+		"name": "America/Mexico_City",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/メキシコシティ"
+	},
+	{
+		"name": "America/Miquelon",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/ミクロン島"
+	},
+	{
+		"name": "America/Moncton",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/モンクトン"
+	},
+	{
+		"name": "America/Monterrey",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/モンテレイ"
+	},
+	{
+		"name": "America/Montevideo",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/モンテビデオ"
+	},
+	{
+		"name": "America/Montserrat",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/モントセラト"
+	},
+	{
+		"name": "America/Nassau",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ナッソー"
+	},
+	{
+		"name": "America/New_York",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ニューヨーク"
+	},
+	{
+		"name": "America/Nipigon",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ニピゴン川"
+	},
+	{
+		"name": "America/Nome",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/ノーム"
+	},
+	{
+		"name": "America/Noronha",
+		"offset": {
+			"hours": -2,
+			"minutes": 0
+		},
+		"description": "アメリカ/ノローニャ"
+	},
+	{
+		"name": "America/North_Dakota/Beulah",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ノースダコタ/ビューラー"
+	},
+	{
+		"name": "America/North_Dakota/Center",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ノースダコタ/センター"
+	},
+	{
+		"name": "America/North_Dakota/New_Salem",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ノースダコタ/ニューサレム"
+	},
+	{
+		"name": "America/Ojinaga",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/オヒナガ"
+	},
+	{
+		"name": "America/Panama",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/パナマ"
+	},
+	{
+		"name": "America/Pangnirtung",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/パンナータング"
+	},
+	{
+		"name": "America/Paramaribo",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/パラマリボ"
+	},
+	{
+		"name": "America/Phoenix",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/フェニックス"
+	},
+	{
+		"name": "America/Port-au-Prince",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/ポルトープランス"
+	},
+	{
+		"name": "America/Port_of_Spain",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ポートオブスペイン"
+	},
+	{
+		"name": "America/Porto_Velho",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/ポルトベリョ"
+	},
+	{
+		"name": "America/Puerto_Rico",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/プエルトリコ"
+	},
+	{
+		"name": "America/Punta_Arenas",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "America/Punta_Arenas"
+	},
+	{
+		"name": "America/Rainy_River",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/レイニーリバー"
+	},
+	{
+		"name": "America/Rankin_Inlet",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ランキンインレット"
+	},
+	{
+		"name": "America/Recife",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/レシフェ"
+	},
+	{
+		"name": "America/Regina",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/レジーナ"
+	},
+	{
+		"name": "America/Resolute",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/レゾリュート"
+	},
+	{
+		"name": "America/Rio_Branco",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/リオブランコ"
+	},
+	{
+		"name": "America/Santarem",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/サンタレン"
+	},
+	{
+		"name": "America/Santiago",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "アメリカ/サンティアゴ"
+	},
+	{
+		"name": "America/Santo_Domingo",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/サントドミンゴ"
+	},
+	{
+		"name": "America/Sao_Paulo",
+		"offset": {
+			"hours": -2,
+			"minutes": 0
+		},
+		"description": "アメリカ/サンパウロ"
+	},
+	{
+		"name": "America/Scoresbysund",
+		"offset": {
+			"hours": -1,
+			"minutes": 0
+		},
+		"description": "アメリカ/スコアスビサンド"
+	},
+	{
+		"name": "America/Sitka",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/シトカ"
+	},
+	{
+		"name": "America/St_Barthelemy",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/セント・バルテルミー島"
+	},
+	{
+		"name": "America/St_Johns",
+		"offset": {
+			"hours": -3,
+			"minutes": -30
+		},
+		"description": "アメリカ/セントジョンズ"
+	},
+	{
+		"name": "America/St_Kitts",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/セントキッツ"
+	},
+	{
+		"name": "America/St_Lucia",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/セントルシア"
+	},
+	{
+		"name": "America/St_Thomas",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/セントトーマス"
+	},
+	{
+		"name": "America/St_Vincent",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/セントビンセント"
+	},
+	{
+		"name": "America/Swift_Current",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/スイフトカレント"
+	},
+	{
+		"name": "America/Tegucigalpa",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/テグシガルパ"
+	},
+	{
+		"name": "America/Thule",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/チューレ"
+	},
+	{
+		"name": "America/Thunder_Bay",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/サンダーベイ"
+	},
+	{
+		"name": "America/Tijuana",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "アメリカ/ティファナ"
+	},
+	{
+		"name": "America/Toronto",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "アメリカ/トロント"
+	},
+	{
+		"name": "America/Tortola",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "アメリカ/トルトラ"
+	},
+	{
+		"name": "America/Vancouver",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "アメリカ/バンクーバー"
+	},
+	{
+		"name": "America/Whitehorse",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "アメリカ/ホワイトホース"
+	},
+	{
+		"name": "America/Winnipeg",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "アメリカ/ウィニペグ"
+	},
+	{
+		"name": "America/Yakutat",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "アメリカ/ヤクタット"
+	},
+	{
+		"name": "America/Yellowknife",
+		"offset": {
+			"hours": -7,
+			"minutes": 0
+		},
+		"description": "アメリカ/イエローナイフ"
+	},
+	{
+		"name": "Antarctica/Casey",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "南極大陸/ケーシー"
+	},
+	{
+		"name": "Antarctica/Davis",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "南極大陸/デイビス"
+	},
+	{
+		"name": "Antarctica/DumontDUrville",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "南極大陸/デュモン・デュルビル"
+	},
+	{
+		"name": "Antarctica/Macquarie",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "南極大陸/マッコーリー"
+	},
+	{
+		"name": "Antarctica/Mawson",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "南極大陸/モーソン"
+	},
+	{
+		"name": "Antarctica/McMurdo",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "南極大陸/マクマード"
+	},
+	{
+		"name": "Antarctica/Palmer",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "南極大陸/パーマー"
+	},
+	{
+		"name": "Antarctica/Rothera",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "南極大陸/ロセラ基地"
+	},
+	{
+		"name": "Antarctica/Syowa",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "南極大陸/昭和"
+	},
+	{
+		"name": "Antarctica/Troll",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "南極大陸/トロール"
+	},
+	{
+		"name": "Antarctica/Vostok",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "南極大陸/ボストーク"
+	},
+	{
+		"name": "Arctic/Longyearbyen",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "北極大陸/ロングイェールビーン"
+	},
+	{
+		"name": "Asia/Aden",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/アデン"
+	},
+	{
+		"name": "Asia/Almaty",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/アルマトイ"
+	},
+	{
+		"name": "Asia/Amman",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/アンマン"
+	},
+	{
+		"name": "Asia/Anadyr",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "アジア/アナディリ"
+	},
+	{
+		"name": "Asia/Aqtau",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/アクタウ"
+	},
+	{
+		"name": "Asia/Aqtobe",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/アクトベ"
+	},
+	{
+		"name": "Asia/Ashgabat",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/アシガバート"
+	},
+	{
+		"name": "Asia/Atyrau",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "Asia/Atyrau"
+	},
+	{
+		"name": "Asia/Baghdad",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/バグダッド"
+	},
+	{
+		"name": "Asia/Bahrain",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/バーレーン"
+	},
+	{
+		"name": "Asia/Baku",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "アジア/バクー"
+	},
+	{
+		"name": "Asia/Bangkok",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/バンコク"
+	},
+	{
+		"name": "Asia/Barnaul",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "Asia/Barnaul"
+	},
+	{
+		"name": "Asia/Beirut",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/ベイルート"
+	},
+	{
+		"name": "Asia/Bishkek",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/ビシュケク"
+	},
+	{
+		"name": "Asia/Brunei",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/ブルネイ"
+	},
+	{
+		"name": "Asia/Chita",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/知多"
+	},
+	{
+		"name": "Asia/Choibalsan",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/チョイバルサン"
+	},
+	{
+		"name": "Asia/Colombo",
+		"offset": {
+			"hours": 5,
+			"minutes": 30
+		},
+		"description": "アジア/コロンボ"
+	},
+	{
+		"name": "Asia/Damascus",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/ダマスカス"
+	},
+	{
+		"name": "Asia/Dhaka",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/ダッカ"
+	},
+	{
+		"name": "Asia/Dili",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/ディリ"
+	},
+	{
+		"name": "Asia/Dubai",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "アジア/ドバイ"
+	},
+	{
+		"name": "Asia/Dushanbe",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/ドゥシャンベ"
+	},
+	{
+		"name": "Asia/Famagusta",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "Asia/Famagusta"
+	},
+	{
+		"name": "Asia/Gaza",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/ガザ"
+	},
+	{
+		"name": "Asia/Hebron",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/ヘブロン"
+	},
+	{
+		"name": "Asia/Ho_Chi_Minh",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ホーチミン"
+	},
+	{
+		"name": "Asia/Hong_Kong",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/香港"
+	},
+	{
+		"name": "Asia/Hovd",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ホブド"
+	},
+	{
+		"name": "Asia/Irkutsk",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/イルクーツク"
+	},
+	{
+		"name": "Asia/Jakarta",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ジャカルタ"
+	},
+	{
+		"name": "Asia/Jayapura",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/ジャヤプラ"
+	},
+	{
+		"name": "Asia/Jerusalem",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/エルサレム"
+	},
+	{
+		"name": "Asia/Kabul",
+		"offset": {
+			"hours": 4,
+			"minutes": 30
+		},
+		"description": "アジア/カブール"
+	},
+	{
+		"name": "Asia/Kamchatka",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "アジア/カムチャツカ"
+	},
+	{
+		"name": "Asia/Karachi",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/カラチ"
+	},
+	{
+		"name": "Asia/Kathmandu",
+		"offset": {
+			"hours": 5,
+			"minutes": 45
+		},
+		"description": "アジア/カトマンズ"
+	},
+	{
+		"name": "Asia/Khandyga",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/ハンドゥイガ"
+	},
+	{
+		"name": "Asia/Kolkata",
+		"offset": {
+			"hours": 5,
+			"minutes": 30
+		},
+		"description": "アジア/コルカタ"
+	},
+	{
+		"name": "Asia/Krasnoyarsk",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/クラスノヤルスク"
+	},
+	{
+		"name": "Asia/Kuala_Lumpur",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/クアラルンプール"
+	},
+	{
+		"name": "Asia/Kuching",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/クチン"
+	},
+	{
+		"name": "Asia/Kuwait",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/クウェート"
+	},
+	{
+		"name": "Asia/Macau",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/マカオ"
+	},
+	{
+		"name": "Asia/Magadan",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "アジア/マガダン"
+	},
+	{
+		"name": "Asia/Makassar",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/マカッサル"
+	},
+	{
+		"name": "Asia/Manila",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/マニラ"
+	},
+	{
+		"name": "Asia/Muscat",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "アジア/マスカット"
+	},
+	{
+		"name": "Asia/Nicosia",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "アジア/ニコシア"
+	},
+	{
+		"name": "Asia/Novokuznetsk",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ノヴォクズネツク"
+	},
+	{
+		"name": "Asia/Novosibirsk",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ノボシビルスク"
+	},
+	{
+		"name": "Asia/Omsk",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/オムスク"
+	},
+	{
+		"name": "Asia/Oral",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/オーラル"
+	},
+	{
+		"name": "Asia/Phnom_Penh",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/プノンペン"
+	},
+	{
+		"name": "Asia/Pontianak",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ポンティアナック"
+	},
+	{
+		"name": "Asia/Pyongyang",
+		"offset": {
+			"hours": 8,
+			"minutes": 30
+		},
+		"description": "アジア/平壌"
+	},
+	{
+		"name": "Asia/Qatar",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/カタール"
+	},
+	{
+		"name": "Asia/Qyzylorda",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/クズロルダ"
+	},
+	{
+		"name": "Asia/Riyadh",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "アジア/リヤド"
+	},
+	{
+		"name": "Asia/Sakhalin",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "アジア/サハリン"
+	},
+	{
+		"name": "Asia/Samarkand",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/サマルカンド"
+	},
+	{
+		"name": "Asia/Seoul",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/ソウル"
+	},
+	{
+		"name": "Asia/Shanghai",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/上海"
+	},
+	{
+		"name": "Asia/Singapore",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/シンガポール"
+	},
+	{
+		"name": "Asia/Srednekolymsk",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "アジア/スレドネコリムスク"
+	},
+	{
+		"name": "Asia/Taipei",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/台北"
+	},
+	{
+		"name": "Asia/Tashkent",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/タシケント"
+	},
+	{
+		"name": "Asia/Tbilisi",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "アジア/トビリシ"
+	},
+	{
+		"name": "Asia/Tehran",
+		"offset": {
+			"hours": 3,
+			"minutes": 30
+		},
+		"description": "アジア/テヘラン"
+	},
+	{
+		"name": "Asia/Thimphu",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/ティンプー"
+	},
+	{
+		"name": "Asia/Tokyo",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/東京"
+	},
+	{
+		"name": "Asia/Tomsk",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "Asia/Tomsk"
+	},
+	{
+		"name": "Asia/Ulaanbaatar",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "アジア/ウランバートル"
+	},
+	{
+		"name": "Asia/Urumqi",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "アジア/ウルムチ"
+	},
+	{
+		"name": "Asia/Ust-Nera",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "アジア/ウスチネラ"
+	},
+	{
+		"name": "Asia/Vientiane",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "アジア/ビエンチャン"
+	},
+	{
+		"name": "Asia/Vladivostok",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "アジア/ウラジオストック"
+	},
+	{
+		"name": "Asia/Yakutsk",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "アジア/ヤクーツク"
+	},
+	{
+		"name": "Asia/Yangon",
+		"offset": {
+			"hours": 6,
+			"minutes": 30
+		},
+		"description": "Asia/Yangon"
+	},
+	{
+		"name": "Asia/Yekaterinburg",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "アジア/エカテリンブルク"
+	},
+	{
+		"name": "Asia/Yerevan",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "アジア/エレバン"
+	},
+	{
+		"name": "Atlantic/Azores",
+		"offset": {
+			"hours": -1,
+			"minutes": 0
+		},
+		"description": "大西洋/アゾレス"
+	},
+	{
+		"name": "Atlantic/Bermuda",
+		"offset": {
+			"hours": -4,
+			"minutes": 0
+		},
+		"description": "大西洋/バミューダ"
+	},
+	{
+		"name": "Atlantic/Canary",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "大西洋/カナリア"
+	},
+	{
+		"name": "Atlantic/Cape_Verde",
+		"offset": {
+			"hours": -1,
+			"minutes": 0
+		},
+		"description": "大西洋/カーボベルデ"
+	},
+	{
+		"name": "Atlantic/Faroe",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "大西洋/フェロー諸島"
+	},
+	{
+		"name": "Atlantic/Madeira",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "大西洋/マデイラ"
+	},
+	{
+		"name": "Atlantic/Reykjavik",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "大西洋/レイキャビク"
+	},
+	{
+		"name": "Atlantic/South_Georgia",
+		"offset": {
+			"hours": -2,
+			"minutes": 0
+		},
+		"description": "大西洋/サウスジョージア"
+	},
+	{
+		"name": "Atlantic/St_Helena",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "大西洋/セントヘレナ"
+	},
+	{
+		"name": "Atlantic/Stanley",
+		"offset": {
+			"hours": -3,
+			"minutes": 0
+		},
+		"description": "大西洋/スタンリー"
+	},
+	{
+		"name": "Australia/Adelaide",
+		"offset": {
+			"hours": 10,
+			"minutes": 30
+		},
+		"description": "オーストラリア/アデレード"
+	},
+	{
+		"name": "Australia/Brisbane",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "オーストラリア/ブリスベン"
+	},
+	{
+		"name": "Australia/Broken_Hill",
+		"offset": {
+			"hours": 10,
+			"minutes": 30
+		},
+		"description": "オーストラリア/ブロークンヒル"
+	},
+	{
+		"name": "Australia/Currie",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "オーストラリア/カリー"
+	},
+	{
+		"name": "Australia/Darwin",
+		"offset": {
+			"hours": 9,
+			"minutes": 30
+		},
+		"description": "オーストラリア/ダーウィン"
+	},
+	{
+		"name": "Australia/Eucla",
+		"offset": {
+			"hours": 8,
+			"minutes": 45
+		},
+		"description": "オーストラリア/ユークラ"
+	},
+	{
+		"name": "Australia/Hobart",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "オーストラリア/ホバート"
+	},
+	{
+		"name": "Australia/Lindeman",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "オーストラリア/リンデマン"
+	},
+	{
+		"name": "Australia/Lord_Howe",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "オーストラリア/ロードハウ"
+	},
+	{
+		"name": "Australia/Melbourne",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "オーストラリア/メルボルン"
+	},
+	{
+		"name": "Australia/Perth",
+		"offset": {
+			"hours": 8,
+			"minutes": 0
+		},
+		"description": "オーストラリア/パース"
+	},
+	{
+		"name": "Australia/Sydney",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "オーストラリア/シドニー"
+	},
+	{
+		"name": "Europe/Amsterdam",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/アムステルダム"
+	},
+	{
+		"name": "Europe/Andorra",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/アンドラ"
+	},
+	{
+		"name": "Europe/Astrakhan",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "Europe/Astrakhan"
+	},
+	{
+		"name": "Europe/Athens",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/アテネ"
+	},
+	{
+		"name": "Europe/Belgrade",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ベオグラード"
+	},
+	{
+		"name": "Europe/Berlin",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ベルリン"
+	},
+	{
+		"name": "Europe/Bratislava",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ブラティスラヴァ"
+	},
+	{
+		"name": "Europe/Brussels",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ブリュッセル"
+	},
+	{
+		"name": "Europe/Bucharest",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ブカレスト"
+	},
+	{
+		"name": "Europe/Budapest",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ブダペスト"
+	},
+	{
+		"name": "Europe/Busingen",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ビュージンゲン"
+	},
+	{
+		"name": "Europe/Chisinau",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/キシニョフ"
+	},
+	{
+		"name": "Europe/Copenhagen",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/コペンハーゲン"
+	},
+	{
+		"name": "Europe/Dublin",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ダブリン"
+	},
+	{
+		"name": "Europe/Gibraltar",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ジブラルタル"
+	},
+	{
+		"name": "Europe/Guernsey",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ガーンジー"
+	},
+	{
+		"name": "Europe/Helsinki",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ヘルシンキ"
+	},
+	{
+		"name": "Europe/Isle_of_Man",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/マン島"
+	},
+	{
+		"name": "Europe/Istanbul",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/イスタンブール"
+	},
+	{
+		"name": "Europe/Jersey",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ジャージー"
+	},
+	{
+		"name": "Europe/Kaliningrad",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/カリーニングラード"
+	},
+	{
+		"name": "Europe/Kiev",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/キエフ"
+	},
+	{
+		"name": "Europe/Kirov",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "Europe/Kirov"
+	},
+	{
+		"name": "Europe/Lisbon",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/リスボン"
+	},
+	{
+		"name": "Europe/Ljubljana",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/リュブリャナ"
+	},
+	{
+		"name": "Europe/London",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ロンドン"
+	},
+	{
+		"name": "Europe/Luxembourg",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ルクセンブルグ"
+	},
+	{
+		"name": "Europe/Madrid",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/マドリッド"
+	},
+	{
+		"name": "Europe/Malta",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/マルタ"
+	},
+	{
+		"name": "Europe/Mariehamn",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/マリエハムン"
+	},
+	{
+		"name": "Europe/Minsk",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ミンスク"
+	},
+	{
+		"name": "Europe/Monaco",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/モナコ"
+	},
+	{
+		"name": "Europe/Moscow",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/モスクワ"
+	},
+	{
+		"name": "Europe/Oslo",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/オスロ"
+	},
+	{
+		"name": "Europe/Paris",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/パリ"
+	},
+	{
+		"name": "Europe/Podgorica",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ポドゴリツァ"
+	},
+	{
+		"name": "Europe/Prague",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/プラハ"
+	},
+	{
+		"name": "Europe/Riga",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/リガ"
+	},
+	{
+		"name": "Europe/Rome",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ローマ"
+	},
+	{
+		"name": "Europe/Samara",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/サマラ"
+	},
+	{
+		"name": "Europe/San_Marino",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/サンマリノ"
+	},
+	{
+		"name": "Europe/Sarajevo",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/サラエボ"
+	},
+	{
+		"name": "Europe/Saratov",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "Europe/Saratov"
+	},
+	{
+		"name": "Europe/Simferopol",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/シンフェロポリ"
+	},
+	{
+		"name": "Europe/Skopje",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/スコピエ"
+	},
+	{
+		"name": "Europe/Sofia",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ソフィア"
+	},
+	{
+		"name": "Europe/Stockholm",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ストックホルム"
+	},
+	{
+		"name": "Europe/Tallinn",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/タリン"
+	},
+	{
+		"name": "Europe/Tirane",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ティラナ"
+	},
+	{
+		"name": "Europe/Ulyanovsk",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "Europe/Ulyanovsk"
+	},
+	{
+		"name": "Europe/Uzhgorod",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ウジゴロド"
+	},
+	{
+		"name": "Europe/Vaduz",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ファドゥーツ"
+	},
+	{
+		"name": "Europe/Vatican",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/バチカン"
+	},
+	{
+		"name": "Europe/Vienna",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ウィーン"
+	},
+	{
+		"name": "Europe/Vilnius",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ヴィリニュス"
+	},
+	{
+		"name": "Europe/Volgograd",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ボルゴグラード"
+	},
+	{
+		"name": "Europe/Warsaw",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ワルシャワ"
+	},
+	{
+		"name": "Europe/Zagreb",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ザグレブ"
+	},
+	{
+		"name": "Europe/Zaporozhye",
+		"offset": {
+			"hours": 2,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/ザポリージャ"
+	},
+	{
+		"name": "Europe/Zurich",
+		"offset": {
+			"hours": 1,
+			"minutes": 0
+		},
+		"description": "ヨーロッパ/チューリッヒ"
+	},
+	{
+		"name": "Indian/Antananarivo",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "インディアン/アンタナナリボ"
+	},
+	{
+		"name": "Indian/Chagos",
+		"offset": {
+			"hours": 6,
+			"minutes": 0
+		},
+		"description": "インディアン/チャゴス"
+	},
+	{
+		"name": "Indian/Christmas",
+		"offset": {
+			"hours": 7,
+			"minutes": 0
+		},
+		"description": "インディアン/クリスマス"
+	},
+	{
+		"name": "Indian/Cocos",
+		"offset": {
+			"hours": 6,
+			"minutes": 30
+		},
+		"description": "インディアン/ココス"
+	},
+	{
+		"name": "Indian/Comoro",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "インディアン/コモロ"
+	},
+	{
+		"name": "Indian/Kerguelen",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "インディアン/ケルゲレン"
+	},
+	{
+		"name": "Indian/Mahe",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "インディアン/マヘ"
+	},
+	{
+		"name": "Indian/Maldives",
+		"offset": {
+			"hours": 5,
+			"minutes": 0
+		},
+		"description": "インディアン/モルディブ"
+	},
+	{
+		"name": "Indian/Mauritius",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "インディアン/モーリシャス"
+	},
+	{
+		"name": "Indian/Mayotte",
+		"offset": {
+			"hours": 3,
+			"minutes": 0
+		},
+		"description": "インディアン/マヨット"
+	},
+	{
+		"name": "Indian/Reunion",
+		"offset": {
+			"hours": 4,
+			"minutes": 0
+		},
+		"description": "インディアン/レユニオン"
+	},
+	{
+		"name": "Pacific/Apia",
+		"offset": {
+			"hours": 14,
+			"minutes": 0
+		},
+		"description": "太平洋/アピア"
+	},
+	{
+		"name": "Pacific/Auckland",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "太平洋/オークランド"
+	},
+	{
+		"name": "Pacific/Bougainville",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/ブーゲンビル"
+	},
+	{
+		"name": "Pacific/Chatham",
+		"offset": {
+			"hours": 13,
+			"minutes": 45
+		},
+		"description": "太平洋/チャタム"
+	},
+	{
+		"name": "Pacific/Chuuk",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "太平洋/チューク"
+	},
+	{
+		"name": "Pacific/Easter",
+		"offset": {
+			"hours": -5,
+			"minutes": 0
+		},
+		"description": "太平洋/イースター"
+	},
+	{
+		"name": "Pacific/Efate",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/エファテ"
+	},
+	{
+		"name": "Pacific/Enderbury",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "太平洋/エンダベリー"
+	},
+	{
+		"name": "Pacific/Fakaofo",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "太平洋/ファカオフォ"
+	},
+	{
+		"name": "Pacific/Fiji",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "太平洋/フィジー"
+	},
+	{
+		"name": "Pacific/Funafuti",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/フナフティ"
+	},
+	{
+		"name": "Pacific/Galapagos",
+		"offset": {
+			"hours": -6,
+			"minutes": 0
+		},
+		"description": "太平洋/ガラパゴス"
+	},
+	{
+		"name": "Pacific/Gambier",
+		"offset": {
+			"hours": -9,
+			"minutes": 0
+		},
+		"description": "太平洋/ガンビア"
+	},
+	{
+		"name": "Pacific/Guadalcanal",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/ガダルカナル"
+	},
+	{
+		"name": "Pacific/Guam",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "太平洋/グアム"
+	},
+	{
+		"name": "Pacific/Honolulu",
+		"offset": {
+			"hours": -10,
+			"minutes": 0
+		},
+		"description": "太平洋/ホノルル"
+	},
+	{
+		"name": "Pacific/Kiritimati",
+		"offset": {
+			"hours": 14,
+			"minutes": 0
+		},
+		"description": "太平洋/クリスマス島"
+	},
+	{
+		"name": "Pacific/Kosrae",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/コスラエ"
+	},
+	{
+		"name": "Pacific/Kwajalein",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/クェゼリン"
+	},
+	{
+		"name": "Pacific/Majuro",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/マジュロ"
+	},
+	{
+		"name": "Pacific/Marquesas",
+		"offset": {
+			"hours": -9,
+			"minutes": -30
+		},
+		"description": "太平洋/マルケサス"
+	},
+	{
+		"name": "Pacific/Midway",
+		"offset": {
+			"hours": -11,
+			"minutes": 0
+		},
+		"description": "太平洋/ミッドウェイ"
+	},
+	{
+		"name": "Pacific/Nauru",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/ナウル"
+	},
+	{
+		"name": "Pacific/Niue",
+		"offset": {
+			"hours": -11,
+			"minutes": 0
+		},
+		"description": "太平洋/ニウエ"
+	},
+	{
+		"name": "Pacific/Norfolk",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/ノーフォーク"
+	},
+	{
+		"name": "Pacific/Noumea",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/ヌメア"
+	},
+	{
+		"name": "Pacific/Pago_Pago",
+		"offset": {
+			"hours": -11,
+			"minutes": 0
+		},
+		"description": "太平洋/パゴパゴ"
+	},
+	{
+		"name": "Pacific/Palau",
+		"offset": {
+			"hours": 9,
+			"minutes": 0
+		},
+		"description": "太平洋/パラオ"
+	},
+	{
+		"name": "Pacific/Pitcairn",
+		"offset": {
+			"hours": -8,
+			"minutes": 0
+		},
+		"description": "太平洋/ピトケアン"
+	},
+	{
+		"name": "Pacific/Pohnpei",
+		"offset": {
+			"hours": 11,
+			"minutes": 0
+		},
+		"description": "太平洋/ポンペイ"
+	},
+	{
+		"name": "Pacific/Port_Moresby",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "太平洋/ポートモレスビー"
+	},
+	{
+		"name": "Pacific/Rarotonga",
+		"offset": {
+			"hours": -10,
+			"minutes": 0
+		},
+		"description": "太平洋/ラロトンガ"
+	},
+	{
+		"name": "Pacific/Saipan",
+		"offset": {
+			"hours": 10,
+			"minutes": 0
+		},
+		"description": "太平洋/サイパン"
+	},
+	{
+		"name": "Pacific/Tahiti",
+		"offset": {
+			"hours": -10,
+			"minutes": 0
+		},
+		"description": "太平洋/タヒチ"
+	},
+	{
+		"name": "Pacific/Tarawa",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/タラワ"
+	},
+	{
+		"name": "Pacific/Tongatapu",
+		"offset": {
+			"hours": 13,
+			"minutes": 0
+		},
+		"description": "太平洋/トンガタプ"
+	},
+	{
+		"name": "Pacific/Wake",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/ウェイク"
+	},
+	{
+		"name": "Pacific/Wallis",
+		"offset": {
+			"hours": 12,
+			"minutes": 0
+		},
+		"description": "太平洋/ワリス"
+	},
+	{
+		"name": "UTC",
+		"offset": {
+			"hours": 0,
+			"minutes": 0
+		},
+		"description": "協定世界時"
+	}
+]

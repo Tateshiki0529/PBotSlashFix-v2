@@ -1,9 +1,10 @@
 from glob import glob
 from os.path import basename
+from json import load
 
-from discord import AutocompleteContext
+from discord import AutocompleteContext, OptionChoice
 
-from .lib import getSubcommandJSON
+from .lib import getSubcommandJSON, getTimezoneJSON
 
 class Autocomplete:
 	# Image get method
@@ -23,3 +24,16 @@ class Autocomplete:
 			return [s for s in json[ctx.command.name] if str.lower(ctx.value) in str.lower(s)]
 		else:
 			return []
+	
+	async def getTimezone(self, ctx: AutocompleteContext) -> list:
+		json = getTimezoneJSON()
+		
+		return [
+			OptionChoice(
+				name = v["name"],
+				value = v["name"],
+				name_localizations = {
+					"ja": v["description"]
+				}
+			) for v in json if ctx.value in v["name"]
+		]
