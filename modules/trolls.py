@@ -148,4 +148,59 @@ class Trolls(Cog):
 		await ctx.respond("FAX")
 		return
 
-	#
+	# Command: /yamaokaya
+	@command(
+		name = "yamaokaya",
+		description = "美味しいラーメン見つけた [Module: Trolls]",
+		guild_ids = GID
+	)
+	async def __yamaokaya(self, ctx: ApplicationContext) -> None:
+		text = """%s
+おいしいラーメン見つけた
+山岡屋で見つけた
+太くて強くてまっすぐ
+麺の力であふれる元気
+みんなでいただきます
+癖になる味　ラーメンの山岡家
+
+うれしいラーメン見つけた
+山岡家で見つけた
+とんこつ　ぐつぐつ　じっと待つ
+スープの優しさ　あふれる幸せ
+みんなでいただきます
+癖になる味　ラーメンの山岡家
+
+楽しいラーメン見つけた
+山岡家で見つけた
+みそ　しお　しょうゆ　からみそ
+タレが運ぶ夢　あふれる笑顔
+みんなでいただきます
+癖になる味　ラーメンの山岡家""" % ctx.user.mention
+		if ctx.user.voice is not None:
+			vc = ctx.user.voice.channel
+		else:
+			vc = None
+		
+		if ctx.voice_client is None and vc is not None:
+			voice = await vc.connect()
+		else:
+			voice = None
+			vc = None
+		
+		if vc is None:
+			await ctx.respond(text)
+		else:
+			try:
+				if len(ctx.channel.members) == 1:
+					return
+				
+				voice.play(FFmpegPCMAudio("./yamaokaya.mp3"))
+
+				msg: Interaction = await ctx.respond(text)
+
+				while voice.is_playing():
+					await asleep(1.0)
+			finally:
+				await voice.disconnect()
+				await msg.delete_original_message()
+		return
