@@ -1,0 +1,375 @@
+[
+	{
+		"moduleName": "General",
+		"description": "通常コマンドモジュール",
+		"commands": {
+			"ping": {
+				"usage": "/ping",
+				"description": "Ping値を返します",
+				"usable": "everyone",
+				"options": {}
+			},
+			"server": {
+				"usage": "/server",
+				"description": "サーバー情報を返します",
+				"usable": "everyone",
+				"options": {}
+			},
+			"restart": {
+				"usage": "/restart",
+				"description": "Botを再起動します",
+				"usable": "administrator",
+				"options": {}
+			},
+			"forcerestart": {
+				"usage": "/forcerestart",
+				"description": "Botを即再起動します",
+				"usable": "administrator",
+				"options": {}
+			},
+			"greeting": {
+				"usage": "/greeting <type> [target]",
+				"description": "メンションしてあいさつします",
+				"usable": "everyone",
+				"options": {
+					"type": {
+						"type": "str",
+						"description": "挨拶のモード",
+						"choices": [
+							"hello",
+							"goodbye",
+							"morning",
+							"afternoon",
+							"evening",
+							"newyear",
+							"halloween"
+						],
+						"required": true
+					},
+					"target": {
+						"type": "Member",
+						"description": "メンションするユーザー",
+						"default": "@me",
+						"required": false
+					}
+				}
+			}
+		}
+	},
+	{
+		"moduleName": "Images",
+		"description": "画像処理系コマンドモジュール",
+		"commands": {
+			"imgview": {
+				"usage": "/imgview [filename]",
+				"description": "画像を表示します",
+				"usable": "everyone",
+				"options": {
+					"filename": {
+						"type": "str",
+						"description": "画像の名前",
+						"required": false
+					}
+				}
+			},
+			"upload": {
+				"usage": "/upload <file> [filename]",
+				"description": "画像をアップロードします",
+				"usable": "everyone",
+				"options": {
+					"file": {
+						"type": "Attachment",
+						"description": "アップロードする画像ファイル",
+						"required": true
+					},
+					"filename": {
+						"type": "str",
+						"description": "保存するファイル名",
+						"required": false
+					}
+				}
+			},
+			"register": {
+				"usage": "/register <command> <subcommand> [path] [description] [file] [filename]",
+				"description": "新しいサブコマンドを登録します",
+				"usable": "everyone",
+				"options": {
+					"command": {
+						"type": "str",
+						"description": "追加先のコマンド名",
+						"required": true
+					},
+					"subcommand": {
+						"type": "str",
+						"description": "追加先のサブコマンド名",
+						"required": true
+					},
+					"path": {
+						"type": "str",
+						"description": "返信する画像のパス",
+						"required": false
+					},
+					"description": {
+						"type": "str",
+						"description": "画像の簡易的な説明",
+						"required": false
+					},
+					"file": {
+						"type": "Attachment",
+						"description": "アップロードする画像ファイル",
+						"required": false
+					},
+					"filename": {
+						"type": "str",
+						"description": "保存するファイル名",
+						"required": false
+					}
+				}
+			}
+		}
+	},
+	{
+		"moduleName": "Private",
+		"description": "プライベートコマンドモジュール",
+		"commands": {
+			"fujisan": {
+				"usage": "/fujisan",
+				"description": "パチンカス教聖地①",
+				"usable": "everyone",
+				"options": {}
+			},
+			"sawayaka": {
+				"usage": "/sawayaka [type]",
+				"description": "パチンカス教聖地②",
+				"usable": "everyone",
+				"options": {
+					"type": {
+						"type": "str",
+						"description": "画像のタイプ",
+						"choices": [
+							"everyone",
+							"tamura"
+						],
+						"required": false,
+						"default": "everyone"
+					}
+				}
+			},
+			"yamcha": {
+				"usage": "/yamcha [pattern]",
+				"description": "ヤムチャしやがって…",
+				"usable": "everyone",
+				"options": {
+					"pattern": {
+						"type": "str",
+						"description": "パターンを指定します",
+						"choices": [
+							"takagi",
+							"original"
+						],
+						"required": false,
+						"default": "original"
+					}
+				}
+			},
+			"fuck": {
+				"usage": "/fuck",
+				"description": "田村紘一の貴重な中指立てシーン",
+				"usable": "everyone",
+				"options": {}
+			},
+			"tamada": {
+				"usage": "/tamada <image>",
+				"description": "<説明文募集中>",
+				"usable": "everyone",
+				"options": {
+					"image": {
+						"type": "str",
+						"description": "画像を選択します",
+						"required": true
+					}
+				}
+			},
+			"tatematsu": {
+				"usage": "/tatematsu <image>",
+				"description": "ブスやん",
+				"usable": "everyone",
+				"options": {
+					"image": {
+						"type": "str",
+						"description": "画像を選択します",
+						"required": true
+					}
+				}
+			},
+			"tamura": {
+				"usage": "/tamura <image>",
+				"description": "偉大なるパチンカス教教祖、田村紘一教祖を崇め奉れよ",
+				"usable": "everyone",
+				"options": {
+					"image": {
+						"type": "str",
+						"description": "画像を選択します",
+						"required": true
+					}
+				}
+			},
+			"katai": {
+				"usage": "/katai <image>",
+				"description": "片井盗撮記念(G1) 理科大 ダート 1200m (短距離)",
+				"usable": "everyone",
+				"options": {
+					"image": {
+						"type": "str",
+						"description": "画像を選択します",
+						"required": true
+					}
+				}
+			},
+			"takagi": {
+				"usage": "/takagi <image>",
+				"description": "Taka🏯の画像保管庫",
+				"usable": "everyone",
+				"options": {
+					"image": {
+						"type": "str",
+						"description": "画像を選択します",
+						"required": true
+					}
+				}
+			}
+		}
+	},
+	{
+		"moduleName": "Trolls",
+		"description": "おふざけコマンドモジュール",
+		"commands": {
+			"troll": {
+				"usage": "/troll",
+				"description": "トロールフェイス",
+				"usable": "everyone",
+				"options": {}
+			},
+			"okiro": {
+				"usage": "/okiro [target] [count]",
+				"description": "ターゲットを起こします",
+				"usable": "everyone",
+				"options": {
+					"target": {
+						"type": "Member",
+						"description": "起こすターゲット",
+						"required": false,
+						"default": "@me"
+					},
+					"count": {
+						"type": "int",
+						"description": "起こす回数",
+						"required": false,
+						"default": 5
+					}
+				}
+			},
+			"matsumoto": {
+				"usage": "/matsumoto [type]",
+				"description": "まつもとぉ～、まつもとぉ～。",
+				"usable": "everyone",
+				"options": {
+					"type": {
+						"type": "str",
+						"description": "放送のタイプ",
+						"required": false,
+						"choices": [
+							"normal",
+							"terminal"
+						],
+						"default": "normal"
+					}
+				}
+			},
+			"fucks": {
+				"usage": "/fucks",
+				"description": "Everybody say, \"FAX\"!",
+				"usable": "everyone",
+				"options": {}
+			},
+			"yamaokaya": {
+				"usage": "/yamaokaya",
+				"description": "美味しいラーメン見つけた",
+				"usable": "everyone",
+				"options": {}
+			}
+		}
+	},
+	{
+		"moduleName": "Utils",
+		"description": "ツール系コマンドモジュール",
+		"commands": {
+			"power": {
+				"usage": "/power <base> <exp>",
+				"description": "おい、俺の筋肉！！×2 べき乗を計算するのかい？しないのかい？どっちなんだい！",
+				"usable": "everyone",
+				"options": {
+					"base": {
+						"type": "float",
+						"description": "底",
+						"required": true
+					},
+					"exp": {
+						"type": "float",
+						"description": "べき指数",
+						"required": true
+					}
+				}
+			},
+			"time": {
+				"usage": "/time [timezone]",
+				"description": "時間を返します",
+				"usable": "everyone",
+				"options": {
+					"timezone": {
+						"type": "str",
+						"description": "タイムゾーン",
+						"required": false,
+						"default": "Asia/Tokyo"
+					}
+				}
+			}
+		}
+	},
+	{
+		"moduleName": "Core",
+		"description": "スクリプトコアモジュール",
+		"commands": {
+			"version": {
+				"usage": "/version",
+				"description": "Botのバージョン情報を返します",
+				"usable": "everyone",
+				"options": {}
+			},
+			"help": {
+				"usage": "/help [content]",
+				"description": "ヘルプを表示します",
+				"usable": "everyone",
+				"options": {
+					"content": {
+						"type": "str",
+						"description": "詳細を表示するコマンドやモジュール名",
+						"required": false
+					}
+				}
+			}
+		}
+	},
+	{
+		"moduleName": "EmergencyCore",
+		"description": "臨時スクリプトコアモジュール",
+		"commands": {
+			"disabled": {
+				"usage": "/disabled",
+				"description": "コマンドは無効化されています！",
+				"usable": "none",
+				"options": {}
+			}
+		}
+	}
+]

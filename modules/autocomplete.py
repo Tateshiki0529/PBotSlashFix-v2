@@ -4,7 +4,7 @@ from json import load
 
 from discord import AutocompleteContext, OptionChoice
 
-from .lib import getSubcommandJSON, getTimezoneJSON
+from .lib import getSubcommandJSON, getTimezoneJSON, getHelpJSON
 
 class Autocomplete:
 	# Image get method
@@ -37,3 +37,22 @@ class Autocomplete:
 				}
 			) for v in json if ctx.value in v["name"]
 		]
+	
+	async def getHelpOption(self, ctx: AutocompleteContext) -> list:
+		json = getHelpJSON()
+		output: list[OptionChoice] = []
+
+		for m in json:
+			output.append(OptionChoice(
+				name = m["moduleName"],
+				description = m["description"],
+				value = "mod_%s" % m["moduleName"]
+			))
+			for c, d in m["commands"]:
+				output.append(OptionChoice(
+					name = c,
+					description = d["description"],
+					value = "com_%s" % ctx
+				))
+		
+		return [l for l in output if str.lower(ctx.value) in str.lower(l.name)]

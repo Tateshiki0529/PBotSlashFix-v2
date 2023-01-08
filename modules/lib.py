@@ -26,7 +26,11 @@ def array_chunk(array: list, length: int) -> list[list]:
 def getSubcommandJSON() -> dict:
 	with open(file="./subcommand.json", mode="r") as fp:
 		return load(fp)
-	
+
+def getHelpJSON() -> dict:
+	with open(file="./help.json", mode="r") as fp:
+		return load(fp)
+
 def getTimezoneJSON() -> dict:
 	with open(file="./timezone.json", mode="r") as fp:
 		return load(fp)

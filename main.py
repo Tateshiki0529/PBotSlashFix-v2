@@ -1,5 +1,5 @@
 from discord import (
-	Cog, Bot, Intents, ApplicationContext
+	Cog, Bot, Intents, ApplicationContext, Embed, option
 )
 from discord.ext.commands import slash_command as command
 from modules.constants import Constants
@@ -8,7 +8,8 @@ from modules.trolls import Trolls
 from modules.utils import Utils
 from modules.images import Images
 from modules.private import Private
-from modules.lib import log
+from modules.lib import log, getHelpJSON
+from modules.autocomplete import Autocomplete
 from sys import argv
 
 GID = [Constants.P_GUILD_ID]
@@ -50,6 +51,37 @@ class PBot2(Cog):
 	)
 	async def __version(self, ctx: ApplicationContext) -> None:
 		await ctx.respond("PachinkasuBotSlashFix %s" % Constants.BOT_VERSION)
+		return
+	
+	# Command: /help [content]
+	@command(
+		name = "help",
+		description = "ヘルプを表示します",
+		guild_ids = GID
+	)
+	@option(
+		name = "content",
+		type = str,
+		description = "詳細を表示するコマンドやモジュール名",
+		required = False,
+		autocomplete = Autocomplete.getHelpOption
+	)
+	async def __help(self, ctx: ApplicationContext, content: str = None) -> None:
+		json = getHelpJSON()
+		embed = Embed(title="パチンカスBot指南書")
+
+		if content is None:
+			embed.description = "サポートしているコマンド一覧:"
+			for m in json:
+				val: list = []
+				for d in m["commands"].values():
+					val.append("- %s - %s" % (d["usage"], d["description"]))
+				embed.add_field(
+					name = "%s (%s)" % (m["moduleName"], m["description"]),
+					value = "\n".join(val),
+					inline = False
+				)
+		await ctx.respond(embed=embed)
 		return
 
 class EmptyBot(Cog):
