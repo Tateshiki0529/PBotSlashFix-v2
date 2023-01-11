@@ -19,8 +19,7 @@ class Images(Cog):
 	# Command: /imgview
 	@command(
 		name = "imgview",
-		description = "画像を表示します [Module: Images]",
-		guild_ids = GID
+		description = "画像を表示します [Module: Images]"
 	)
 	@option(
 		name = "filename",
@@ -53,8 +52,7 @@ class Images(Cog):
 	# Command: /upload <(file)> [filename]
 	@command(
 		name = "upload",
-		description = "画像をアップロードします [Module: Images]",
-		guild_ids = GID
+		description = "画像をアップロードします [Module: Images]"
 	)
 	@option(
 		name = "file",
@@ -107,8 +105,7 @@ class Images(Cog):
 	# Command: /register <command> <subcommand> <path> [description] [(file)] [filename]
 	@command(
 		name = "register",
-		description = "新しいサブコマンドを登録します [Module: Images]",
-		guild_ids = GID
+		description = "新しいサブコマンドを登録します [Module: Images]"
 	)
 	@option(
 		name = "command",

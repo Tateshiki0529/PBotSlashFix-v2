@@ -8,6 +8,7 @@ from modules.trolls import Trolls
 from modules.utils import Utils
 from modules.images import Images
 from modules.private import Private
+from modules.votes import Votes
 from modules.lib import log, getHelpJSON
 from modules.autocomplete import Autocomplete
 from sys import argv
@@ -27,6 +28,7 @@ class PBot2(Cog):
 		self.bot.add_cog(Utils(bot=self.bot))
 		self.bot.add_cog(Images(bot=self.bot))
 		self.bot.add_cog(Private(bot=self.bot))
+		# self.bot.add_cog(Votes(bot=self.bot))
 		log("All modules loaded. Starting...")
 	
 	@Cog.listener()
@@ -46,8 +48,7 @@ class PBot2(Cog):
 	# Command: /version
 	@command(
 		name = "version",
-		description = "Botのバージョン情報を返します [Module: Core]",
-		guild_ids = GID
+		description = "Botのバージョン情報を返します [Module: Core]"
 	)
 	async def __version(self, ctx: ApplicationContext) -> None:
 		await ctx.respond("PachinkasuBotSlashFix %s" % Constants.BOT_VERSION)
@@ -56,8 +57,7 @@ class PBot2(Cog):
 	# Command: /help [content]
 	@command(
 		name = "help",
-		description = "ヘルプを表示します",
-		guild_ids = GID
+		description = "ヘルプを表示します"
 	)
 	@option(
 		name = "content",
@@ -101,15 +101,14 @@ class EmptyBot(Cog):
 	# Disabled Command
 	@command(
 		name = "disabled",
-		description = "コマンドは無効化されています！ [Module: EmergencyCore]",
-		guild_ids = GID
+		description = "コマンドは無効化されています！ [Module: EmergencyCore]"
 	)
 	async def __disabled(self, ctx: ApplicationContext):
 		await ctx.respond("コマンドは無効化されています！")
 		return
 
 if __name__ == "__main__":
-	bot = Bot(auto_sync_commands=True, intents=Intents().all())
+	bot = Bot(auto_sync_commands=True, intents=Intents().all(), dev_guild_ids=GID)
 	try:
 		match argv[1]:
 			case "dev":

@@ -21,8 +21,7 @@ class General(Cog):
 	# Command: /ping
 	@command(
 		name = "ping",
-		description = "Ping値を返します [Module: General]",
-		guild_ids = GID
+		description = "Ping値を返します [Module: General]"
 	)
 	async def __ping(self, ctx: ApplicationContext) -> None:
 		await ctx.respond("Pong! Now latency is `%s ms`." % floor(self.bot.latency * 1000))
@@ -31,8 +30,7 @@ class General(Cog):
 	# Command: /server
 	@command(
 		name = "server",
-		description = "サーバー情報を返します [Module: General]",
-		guild_ids = GID
+		description = "サーバー情報を返します [Module: General]"
 	)
 	async def __server(self, ctx: ApplicationContext) -> None:
 		CPUFrequency = cpu_freq()
@@ -49,8 +47,7 @@ class General(Cog):
 	# Command: /restart
 	@command(
 		name = "restart",
-		description = "Botを再起動します [Module: General]",
-		guild_ids = GID
+		description = "Botを再起動します [Module: General]"
 	)
 	async def __restart(self, ctx: ApplicationContext) -> None:
 		if ctx.user.guild_permissions.administrator:
@@ -65,8 +62,7 @@ class General(Cog):
 	# Command: /forcerestart
 	@command(
 		name = "forcerestart",
-		description = "Botを即再起動します [Module: General]",
-		guild_ids = GID
+		description = "Botを即再起動します [Module: General]"
 	)
 	async def __forcerestart(self, ctx: ApplicationContext) -> None:
 		if ctx.user.guild_permissions.administrator:
@@ -80,8 +76,7 @@ class General(Cog):
 	# Command: /greeting
 	@command(
 		name = "greeting",
-		description = "メンションしてあいさつします [Module: General]",
-		guild_ids = GID
+		description = "メンションしてあいさつします [Module: General]"
 	)
 	@option(
 		name = "type",

@@ -18,8 +18,7 @@ class Utils(Cog):
 	# Command: /power <base> <exp>
 	@command(
 		name = "power",
-		description = "おい、俺の筋肉！！×2 べき乗を計算するのかい？しないのかい？どっちなんだい！ [Module: Utils]",
-		guild_ids = GID
+		description = "おい、俺の筋肉！！×2 べき乗を計算するのかい？しないのかい？どっちなんだい！ [Module: Utils]"
 	)
 	@option(
 		name = "base",
@@ -40,8 +39,7 @@ class Utils(Cog):
 	# Command: /time [timezone]
 	@command(
 		name = "time",
-		description = "時間を返します [Module: Utils]",
-		guild_ids = GID
+		description = "時間を返します [Module: Utils]"
 	)
 	@option(
 		name = "timezone",
