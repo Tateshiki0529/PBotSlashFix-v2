@@ -2,3 +2,4 @@ modules/private.py
 .env
 images/*.*
 subcommand.json
+votes.db
